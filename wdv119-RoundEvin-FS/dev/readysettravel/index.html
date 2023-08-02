@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dev/readysettravel/css/reset.css">
+    <link rel="stylesheet" href="dev/readysettravel/css/style.css">
+    <link rel="stylesheet" href="dev/readysettravel/css/mediaqueries.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@200;300;400;700;800&family=Roboto+Flex:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Ready Set Travel</title>
+</head>
+<body class="flex justify-center items-center w-full bg-[url('/dev/readysettravel/img/doodad.png')] bg-no-repeat bg-cover">
+
+    <div class="container flex-col justify-center items-center max-w-6xl bg-white">
+
+        <nav class="flex justify-around bg-slate-100 w-full m-0 px-2 py-4 items-center text-slate-900" >
+            <a href="/dev/readysettravel/index.html"><img class="w-auto h-4 lg:h-6" src="/dev/readysettravel/img/ReadySetTravel.png" alt="logo"></a>
+            <div class="navlinks flex justify-between items-center text-xs lg:text-lg">
+                <a class="px-2 sm:px-4" href="/dev/readysettravel/about.html">About</a>
+                <a class="px-2 sm:px-4" href="/dev/readysettravel/destinations.html">Destinations</a>
+                <a class="px-2 sm:px-4" href="/dev/readysettravel/tours.html">Tours</a>
+                <a class="px-2 sm:px-4" href="/dev/readysettravel/blog.html">Blog</a>
+                <a href="/dev/readysettravel/index.html"><button class="button px-4 py-2 ml-4 bg-orange-400 text-white font-medium drop-shadow-md lg:text-lg lg:ml-10">Book a Trip</button></a>
+            </div>
+        </nav>
+
+
+        
+        <header class="bg-[url('/dev/readysettravel/img/hero-bg.jpg')] bg-center bg-cover bg-repeat m-0 p-20 text-white">
+            <div class="heading flex flex-col justify-start">
+                <h1 class="font-bold pb-2 text-4xl  md:pb-0">Book the trip of a lifetime</h1>
+                <h4 class="text-sm">Get the best advice and tips for your dream trip</h4>
+            </div>
+        </header>
+
+        <div class=" ">
+
+
+
+        <section class="searchbox flex flex-col justify-center mx-2 my-3 sm:mx-30 md:my-4 lg:mx-32">
+            <div class="flex flex-col items-center justify-center bg-cyan-900 pt-3 pb-6 sm:px-10">
+                <h2 class="text-white font-semibold text-xl pb-3">Where do you want to go?</h2>
+                <div class="text-sm flex justify-center">
+                    <input class="bg-white w-80 h-8 " type="search" placeholder="Enter a destination">
+                    <button class="bg-orange-400 text-white h-8 w-24 text-center">Search</button>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class=" bg-slate-100 pb-8 my-2  lg:my-6">
+            <div class="flex flex-col justify-center items-center text-zinc-900 py-3 md:my-4 ">
+                <h2 class="font-bold text-3xl ">Trending Tours</h2>
+                <p class="text-sm ">Get out there and experience some adventure!</p>
+            </div>
+
+            <div class="cards mt-2 gap-2 flex justify-center items-center max-lg:flex-col lg:gap-6">
+                <div class="card1 flex flex-col justify-center items-center drop-shadow-md ">
+                    <img class="w-80 h-44 object-fill" src="/dev/readysettravel/img/tour-mountainHiking.jpg" alt="person hiking on Alps mountain ">
+                    <div class="bg-white ">
+                        <div class="flex flex-col justify-start items-start pt-4 pl-6 pb-3 ">
+                            <h4 class="font-semibold text-sm ">Alps Mountain Hiking Tour</h4>
+                            <p class="text-xs text-gray-400 ">4 days | 10 stops</p>
+                        </div>
+                    
+                        <div class="flex flex-row space-around pl-6 pb-4 px-5 bg-white">
+                            <h4 class="font-bold text-xl pr-28 ">$ 1,500</h4>
+                            <button class="bg-orange-400 text-white h-8 w-24 text-center ">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card1 flex flex-col justify-center items-center drop-shadow-md ">
+                    <img class="w-80 h-44 object-fill" src="/dev/readysettravel/img/tour-snorkel.jpg" alt="person snorkeling underwater">
+                    <div class="bg-white ">
+                        <div class="flex flex-col justify-start items-start pt-4 pl-6 pb-3 ">
+                            <h4 class="font-semibold text-sm ">Snorkel the Barrier Reef Tour</h4>
+                            <p class="text-xs text-gray-400 ">2 days | 2 stops</p>
+                    </div>
+                    <div class="flex flex-row space-around pl-6 pb-4 px-5 bg-white ">
+                        <h4 class="font-bold text-xl pr-28 ">$ 1,000</h4>
+                        <button class="bg-orange-400 text-white h-8 w-24 text-center ">Book Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card1 flex flex-col justify-center items-center drop-shadow-md ">
+                <img class="w-80 h-44 object-fill" src="/dev/readysettravel/img/tour-pyramids.jpg" alt="people riding camels in front of a pyramid ">
+                <div class="bg-white ">
+                    <div class="flex flex-col justify-start items-start pt-4 pl-6 pb-3 ">
+                        <h4 class="font-semibold text-sm ">Tour the Pyramids on Camelback</h4>
+                        <p class="text-xs text-gray-400 ">2 days | 2 stops</p>
+                    </div>
+                    <div class="flex flex-row space-around pl-6 pb-4 px-5 bg-white ">
+                        <h4 class="font-bold text-xl pr-28 ">$ 2,000</h4>
+                        <button class="bg-orange-400 text-white h-8 w-24 text-center ">Book Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+        <section class="features flex flex-col justify-center mb-6 lg:mt-6 lg:mb-16">
+            <div class="flex flex-col justify-center items-center  my-4 pb-3">
+                <h2 class="pb-1 font-bold text-3xl ">Plan the <span class="text-orange-400">Perfect Trip</span></h2>
+                <p class="text-sm">We take care of it all so you can get out there and have fun!</p>
+            </div>
+            <div class="icons-container mt-2  gap-8 flex justify-center items-center font-semibold max-lg:flex-col lg:gap-16">
+                <div class="icons1 flex flex-col items-center">
+                    <img class="w-28 pb-3"src="/dev/readysettravel/img/icon-flights.png" alt="plane circling the globe">
+                    <h4>Flights</h4>
+                </div>
+                <div class="icons2 flex flex-col items-center">
+                    <img class="w-28 lg:pb-4"src="/dev/readysettravel/img/icon-transport.png" alt="a red doubledecker bus">
+                    <h4>Transportation</h4>
+                </div>
+                <div class="icons3 flex flex-col items-center">
+                    <img class="w-28 pb-4"src="/dev/readysettravel/img/icon-guide.png" alt="a man standing next to a flag">
+                    <h4>Guides</h4>
+                </div>
+            </div>
+        </section>
+
+            <section class=" m-8">
+             <div class="flex flex-col items-center justify-center pb-5 lg:pb-8"> 
+                <h2 class="text-3xl font-bold pb-1 ">Top Notch Destinations</h2>
+                <p class="text-sm justify-center items-center">These places are on everyone's bucket list</p>
+            </div>
+          
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="relative">
+                    <img class="h-auto max-w-full " src="/dev/readysettravel/img/destinations-machu.jpg" alt="Huge foggy mountains in midst ancient ruins in Machu Picchu Peru">
+                    <div class="absolute bottom-0 px-4 py-4 w-full">
+                        <h1 class="text-white font-semibold text-xl"> Machu Picchu </h1>
+                        <p class="text-white text-sm">
+                          Peru
+                        </p>
+                      </div>
+                </div>
+                <div class="relative">
+                    <img class="h-auto max-w-full " src="/dev/readysettravel/img/destinations-rome.jpg" alt="Ancient sculpturework in Rome Italy">
+                    <div class="absolute bottom-0 px-4 py-4 w-full">
+                        <h1 class="text-white font-semibold text-xl"> Rome </h1>
+                        <p class="text-white text-sm">
+                         Italy
+                        </p>
+                      </div>
+                </div>
+                <div class="relative">
+                    <img class="h-auto max-w-full " src="/dev/readysettravel/img/destinations-sydney.jpg" alt="A lakeview of a huge bridge in Sydney Australia">
+                    <div class="absolute bottom-0 px-4 py-4 w-full">
+                        <h1 class="text-white font-semibold text-xl"> Sydney </h1>
+                        <p class="text-white text-sm">
+                          Australia
+                        </p>
+                      </div>
+                </div>
+                <div class="relative">
+                    <img class="h-auto max-w-full " src="/dev/readysettravel/img/destinations-paris.jpg" alt="The cityscape of Paris France">
+                    <div class="absolute bottom-0 px-4 py-4 w-full">
+                        <h1 class="text-white font-semibold text-xl"> Paris </h1>
+                        <p class="text-white text-sm">
+                         France
+                        </p>
+                      </div>
+                </div>
+                <div class="relative">
+                    <img class="h-auto max-w-full " src="/dev/readysettravel/img/destinations-rio.jpg" alt="A mountaintop overlooking Rio de Janerio Brazil">
+                    <div class="absolute bottom-0 px-4 py-4 w-full">
+                        <h1 class="text-white font-semibold text-xl"> Rio de Janero </h1>
+                        <p class="text-white text-sm">
+                          Brazil
+                        </p>
+                      </div>
+                </div>
+                <div class="relative">
+                    <img class="h-auto max-w-full " src="/dev/readysettravel/img/gaston-dubois-qxkM_OzPgf0-unsplash (1).jpg" alt="A temple in Seoul Korea">
+                    <div class="absolute bottom-0 px-4 py-4 w-full">
+                        <h1 class="text-white font-semibold text-xl"> Seoul</h1>
+                        <p class="text-white text-sm">
+                          South Korea
+                        </p>
+                      </div>
+                </div>
+            <div>               
+        </section>
+        </div>
+
+
+        <footer class="flex justify-around bg-cyan-900 py-10 text-white text-xs">
+            <div class="flex flex-col justify-start w-40 lg:w-52">
+                <img class="pb-2 w-32 lg:w-44 lg:pb-3" src="/dev/readysettravel/img/ReadySetTravelw.png" alt="logo">
+                <p class="lg:pb-1">We can proide you with the best advice and tips for your dream trip.</p>
+                <div class="social flex flex-row justify-between w-28 pt-2 lg:w-44">
+                    <a href="#"><img class="" src="/dev/readysettravel/img/social-facebook.png" alt="facebook logo"></a>
+                    <a href="#"><img src="/dev/readysettravel/img/social-instagram.png" alt="instagram logo"></a>
+                    <a href="#"><img src="/dev/readysettravel/img/social-twitter.png" alt="twitter logo"></a>
+                </div>
+            </div>
+            <div class="flex flex-col justify-start">
+                <h4 class="font-semibold">Contact Us</h4>
+                <br>
+                <p>123 ABC Street SW</p>
+                <p>Akron, OH 484848</p>
+                <br>
+                <p>123-456-7890</p>
+            </div>
+            <div class=" flex flex-col justify-start">
+                <h4 class="font-semibold">Links</h4>
+                <br>
+                <div class="flex flex-col gap-2">
+                    <a href="#">About</a>
+                    <a href="#">Destinations</a>
+                    <a href="#">Discover</a>
+                    <a href="#">Blog</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+     <script src="dev/readysettravel/js/script.js"></script>
+</body>
+</html>
